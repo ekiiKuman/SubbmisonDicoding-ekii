@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: inline;
+}
+
+body {
+    background-color: deepskyblue;
+    color: indigo;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+nav {
+    background-color: skyblue;
+    padding: 2px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.ppcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+#jumbo {
+    font-size: 20px;
+    padding: 60px;
+    background-color: navy;
+    text-align: center;
+    color: white;
+}
+
+.gambar {
+    max-width: 400px;
+    float: left;
+    margin: 10px;
+}
+
+#konten {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 2%;
+}
+
+aside img {
+    padding-left: 65px;
+}
+
+footer {
+    padding: 5px;
+    color: whitesmoke;
+    background-color: navy;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    #konten,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
